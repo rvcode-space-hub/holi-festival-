@@ -60,6 +60,15 @@ const playlistMap = {
     
   ],
 
+ " nancy choudhary": [
+    { src: "/Lovely.mp3", duration: 20000 },
+    { src: "/Lovely1.mp3", duration: 13000 },
+    { src: "/Lovely2.mp3", duration: 13000 },
+    { src: "/Lovely3.mp3", duration: 20000 },
+    { src: "/Lovely4.mp3", duration: 20000 },
+    { src: "/Lovely5.mp3", duration: 25000 },
+  ],
+
   "ankit sir": [
     { src: "/Common.mp3", duration: 10000 },
     { src: "/Friend.mp3", duration: 22000 },
@@ -79,16 +88,20 @@ const playlistMap = {
   ],
 
   frients: [
-        { src: "/Common.mp3", duration: 11000 },
+    { src: "/Common.mp3", duration: 11000 },
     { src: "/Frients.mp3", duration: 20000 },
   ],
 
   "kashish moto rani": [
     { src: "/Common.mp3", duration: 10000 },
-    { src: "/Lovely5.mp3", duration: 25000 },
     { src: "/Frients.mp3", duration: 20000 },
     { src: "/Lovely4.mp3", duration: 15000 },
 
+  ],
+
+  "gajendra sir": [
+    { src: "/Common.mp3", duration: 10000 },
+    { src: "/Friend.mp3", duration: 20000 },
   ],
 
   "vicky mami": [
@@ -103,6 +116,11 @@ const playlistMap = {
    
   ],
 
+ " manoj sir": [
+    { src: "/Common.mp3", duration: 10000 },
+    { src: "/Friend.mp3", duration: 20000 },
+  ],
+
    "kashish": [
     { src: "/Lovely.mp3", duration: 20000 },
     { src: "/Lovely2.mp3", duration: 13000 },
@@ -111,6 +129,16 @@ const playlistMap = {
     { src: "/Lovely5.mp3", duration: 25000 },
     { src: "/Lovely1.mp3", duration: 13000 },
   ],
+
+"ragini bhabhi": [
+    { src: "/Lovely.mp3", duration: 20000 },
+    { src: "/Lovely2.mp3", duration: 13000 },
+    { src: "/Lovely3.mp3", duration: 20000 },
+    { src: "/Lovely4.mp3", duration: 20000 },
+    { src: "/Lovely5.mp3", duration: 25000 },
+    { src: "/Lovely1.mp3", duration: 13000 },
+  ],
+
 };
 
   const clientName = decodeURIComponent(clients || "").toLowerCase();
@@ -291,7 +319,7 @@ animate-gradientMove`}
         </AnimatePresence>
 
         {/* 👇 Developer Credit Bottom Center */}
- <div className="mt-10 mb-8 w-full flex justify-center px-4">
+ <div className="mt-11 mb-8 w-full flex justify-center px-4">
   <motion.h1
     initial={{ opacity: 0, y: 15 }}
     animate={{ opacity: 1, y: 0 }}
