@@ -38,7 +38,11 @@ export default function HoliGreeting() {
   const [show, setShow] = useState(false);
 
 const clientList = [
-  "lovely",
+  "nancy choudhary",
+    "gajendra sir",
+    "manoj sir",
+    "kashish",
+    "ragini bhabhi",
   "ankit sir",
   "divyansh",
   "anu",
@@ -46,7 +50,8 @@ const clientList = [
   "kashish moto rani",
   "vicky mami",
   "sonu mamu",
-  "su"
+  "su",
+  "lovely singh"
 ];
 
 const playlistMap = {
@@ -121,7 +126,7 @@ const playlistMap = {
     { src: "/Friend.mp3", duration: 20000 },
   ],
 
-   "kashish": [
+   kashish: [
     { src: "/Lovely.mp3", duration: 20000 },
     { src: "/Lovely2.mp3", duration: 13000 },
     { src: "/Lovely3.mp3", duration: 20000 },
