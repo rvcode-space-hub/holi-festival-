@@ -50,7 +50,6 @@ const clientList = [
   "kashish moto rani",
   "vicky mami",
   "sonu mamu",
-  "su",
   "lovely singh"
 ];
 
@@ -65,7 +64,7 @@ const playlistMap = {
     
   ],
 
- " nancy choudhary": [
+ "nancy choudhary": [
     { src: "/Lovely.mp3", duration: 20000 },
     { src: "/Lovely1.mp3", duration: 13000 },
     { src: "/Lovely2.mp3", duration: 13000 },
@@ -121,7 +120,7 @@ const playlistMap = {
    
   ],
 
- " manoj sir": [
+ "manoj sir": [
     { src: "/Common.mp3", duration: 10000 },
     { src: "/Friend.mp3", duration: 20000 },
   ],
