@@ -50,10 +50,14 @@ const clientList = [
 ];
 
 const playlistMap = {
-  lovely: [
+  "lovely singh": [
     { src: "/Lovely.mp3", duration: 20000 },
+    { src: "/Lovely1.mp3", duration: 13000 },
     { src: "/Lovely2.mp3", duration: 13000 },
-    { src: "/Lovely3.mp3", duration: 15000 },
+    { src: "/Lovely3.mp3", duration: 20000 },
+    { src: "/Lovely4.mp3", duration: 20000 },
+    { src: "/Lovely5.mp3", duration: 25000 },
+    
   ],
 
   "ankit sir": [
@@ -62,33 +66,50 @@ const playlistMap = {
   ],
 
   divyansh: [
+    { src: "/Common.mp3", duration: 11000 },
     { src: "/Lovely5.mp3", duration: 15000 },
-    { src: "/Common.mp3", duration: 20000 },
+      { src: "/Lovely4.mp3", duration: 20000 },
+    
   ],
 
   anu: [
-    { src: "/Lovely.mp3", duration: 15000 },
-    { src: "/Common.mp3", duration: 20000 },
+     { src: "/Common.mp3", duration: 20000 },
+    { src: "/Frients.mp3", duration: 20000 },
+   
   ],
 
   frients: [
+        { src: "/Common.mp3", duration: 11000 },
     { src: "/Frients.mp3", duration: 20000 },
-    { src: "/Common.mp3", duration: 15000 },
   ],
 
   "kashish moto rani": [
-    { src: "/Lovely3.mp3", duration: 20000 },
-    { src: "/Common.mp3", duration: 15000 },
+    { src: "/Common.mp3", duration: 10000 },
+    { src: "/Lovely5.mp3", duration: 25000 },
+    { src: "/Frients.mp3", duration: 20000 },
+    { src: "/Lovely4.mp3", duration: 15000 },
+
   ],
 
   "vicky mami": [
-    { src: "/Lovely4.mp3", duration: 20000 },
     { src: "/Common.mp3", duration: 15000 },
+    { src: "/Friend.mp3", duration: 15000 },
+
   ],
 
   "sonu mamu": [
-    { src: "/Lovely5.mp3", duration: 15000 },
-    { src: "/Common.mp3", duration: 20000 },
+     { src: "/Common.mp3", duration: 11000 },
+    { src: "/Friend.mp3", duration: 15000 },
+   
+  ],
+
+   "kashish": [
+    { src: "/Lovely.mp3", duration: 20000 },
+    { src: "/Lovely2.mp3", duration: 13000 },
+    { src: "/Lovely3.mp3", duration: 20000 },
+    { src: "/Lovely4.mp3", duration: 20000 },
+    { src: "/Lovely5.mp3", duration: 25000 },
+    { src: "/Lovely1.mp3", duration: 13000 },
   ],
 };
 

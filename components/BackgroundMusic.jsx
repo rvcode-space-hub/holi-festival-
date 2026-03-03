@@ -12,7 +12,7 @@ export default function BackgroundMusic({ playlist }) {
     if (!audio || !playlist?.length) return;
 
     audio.src = playlist[0].src;
-    audio.volume = 0.3;
+    audio.volume = 0.2;
     audio.muted = false;
 
     audio.play().catch(() => {});
