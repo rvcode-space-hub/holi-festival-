@@ -4,8 +4,8 @@ import {useState, useEffect} from "react";
 import {motion, AnimatePresence} from "framer-motion";
 import {useParams} from "next/navigation";
 import { Yatra_One } from "next/font/google";
-import CornerParticles from "@/components/CornerParticles";
-import BackgroundMusic from "@/components/BackgroundMusic";
+import CornerParticles from "../../components/CornerParticles";
+import BackgroundMusic from "../../components/BackgroundMusic";
 
 
 const Burstcolors = [
